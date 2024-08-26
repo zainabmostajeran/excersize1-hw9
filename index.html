@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <input id="input" type="text" placeholder="urlinput" />
+        <select id="method">
+          <option value="select box">select box</option>
+          <option>Get</option>
+          <option>Post</option>
+        </select>
+        <button id="btnSubmit">submit</button>
+        <div class="new">
+        <div class="text">
+          <p id="label">Response Body:</p>
+          <div id="root"></div>
+        </div>
+        <div class="text">
+          <p id="label1">Request Body:</p>
+          <textarea id="req"></textarea>
+        </div>
+      </div>
+        <p id="status"></p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
